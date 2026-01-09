@@ -48,19 +48,26 @@ export default function ResponsiveHeader() {
               onClick={() => setMobileMenuOpen(false)}
             >
               {/* <div className="relative">
-                <div className="w-16 h-16 sm:w-12 sm:h-12 flex items-center justify-center font-black text-lg sm:text-xl transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+                <div className="w-24 h-24  rounded-full sm:w-12 sm:h-12 flex items-center justify-center font-black text-lg sm:text-xl transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
                
                   <img src={Logo} alt="" />
                 </div>
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#cbd5e1] to-[#a548ff] opacity-0 group-hover:opacity-50 blur-xl transition-all duration-300" />
               </div> */}
-              <div className="space-y-4">
+              <div className="relative group">
+  <div className="w-24 h-24 sm:w-12 sm:h-12 rounded-full flex items-center justify-center font-black text-lg sm:text-xl transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+    <img src={Logo} alt="Logo" className="w-full h-full object-contain" />
+  </div>
+  <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#cbd5e1] to-[#a548ff] opacity-0 group-hover:opacity-50 blur-xl transition-all duration-300" />
+</div>
+
+              {/* <div className="space-y-4">
                 <h3 className="text-4xl font-black">
                   <span className="block bg-gradient-to-r from-[#a548ff] to-[#cbd5e1] bg-clip-text text-transparent">
                     ARJ
                   </span>
                 </h3>
-              </div>
+              </div> */}
             
             </a>
 
