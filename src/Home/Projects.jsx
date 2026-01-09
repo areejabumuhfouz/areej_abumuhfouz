@@ -601,7 +601,7 @@ const projects = [
     <div 
      ref={heroRef}
       onMouseMove={handleMouseMove}
-    className="relative min-h-screen bg-[#22063d] overflow-hidden">
+    className="relative min-h-screen bg-[#22063d] overflow-hidden pt-20">
     <canvas ref={canvasRef} className="absolute inset-0 opacity-70" />
 
 
