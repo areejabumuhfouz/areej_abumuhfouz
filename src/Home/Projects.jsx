@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import ResponsiveHeader from '../components/Header';
+import ResponsiveHeader from '../Components/Header';
 import Footer from '../Components/Footer';
 import SolarEye from '../assets/SolarEye.png';
 function ProjectDetailsModal({ project, isOpen, onClose }) {
