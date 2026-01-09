@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import Header from '../components/Header';
+import ResponsiveHeader from '../components/Header';
 import Footer from '../Components/Footer';
 import SolarEye from '../assets/SolarEye.png';
 function ProjectDetailsModal({ project, isOpen, onClose }) {
@@ -597,7 +597,7 @@ const projects = [
   ];
 
   return (
-    <><Header/> 
+    <><ResponsiveHeader/> 
     <div 
      ref={heroRef}
       onMouseMove={handleMouseMove}
