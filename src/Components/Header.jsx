@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, Download } from 'lucide-react';
 import { FaBehance } from 'react-icons/fa';
 import CV from "../assets/Areej_Abumuhfouz.pdf"
-import Logo from '../Assets/Logo.png';
+import Logo from '../assets/Logo1.png';
 export default function ResponsiveHeader() {
   const [scrollY, setScrollY] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
