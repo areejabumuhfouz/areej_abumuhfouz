@@ -4,7 +4,7 @@ import Home from "./Home/Home.jsx"
 import Services from "./Home/Services.jsx";
 import Projects from "./Home/Projects.jsx";
 import Contact from "./Home/Contact.jsx";
-
+import QRPage from "./Home/QR.jsx";
 function App() {
 
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/qr" element={<QRPage />} />
       </Routes>
     </Router>
 
